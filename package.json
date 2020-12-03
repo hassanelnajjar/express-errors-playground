@@ -1,0 +1,38 @@
+{
+  "name": "express-errors-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassanelnajjar/express-errors-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hassanelnajjar/express-errors-playground/issues"
+  },
+  "homepage": "https://github.com/hassanelnajjar/express-errors-playground#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "env2": "^2.2.2",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0",
+    "uuid": "^8.3.1",
+    "uuid4": "^2.0.2"
+  }
+}
