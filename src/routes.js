@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const {getUsers, getUserById, createUser} = require('./controllers');
 const {reponseError, reponseSuccess} = require('./helpers');
+
 // GET /users
 // GET /user/:id
 // PORT /users
